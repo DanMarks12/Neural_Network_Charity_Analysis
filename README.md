@@ -9,7 +9,7 @@ The purpose of our analysis was to use unsupervised deep learning neural network
 ### What variable(s) are considered the target(s) for your model?
 We considered all variables for our analysis except columns EIN and NAME. We removed them because they contained identification information which is not pertinent for analysis. The main column used in analysis was IS_SUCCESFUL as it contained a binary answer which is useful for our depp learning neural network.
 ### What variable(s) are considered to be the features for your model?
-![](https://github.com/DanMarks12/Neural_Network_Charity_Analysis/blob/main/JPG/FEATURES.JPG0
+![](https://github.com/DanMarks12/Neural_Network_Charity_Analysis/blob/main/JPG/FEATURES.JPG)
 There were the features of the model: APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, STATUS, INCOME_AMT, SPECIAL_CONSIDERATIONS, ASK_AMT
 ### What variable(s) are neither targets nor features, and should be removed from the input data?
 As mentioned before EIN and NAME were removed as they were indentification information. 
